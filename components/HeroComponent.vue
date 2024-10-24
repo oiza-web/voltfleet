@@ -38,7 +38,7 @@ import heroImage from "../assets/images/hero-image.png"
 export default {
   data() {
     return {
-      heroImage // Ensure it's in the data object
+      heroImage 
     };
 }}
 </script>

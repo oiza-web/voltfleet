@@ -40,14 +40,13 @@
 
           <v-app-bar-nav-icon v-if="this.$vuetify.breakpoint.mdAndDown" @click.stop="sideNav.model = !sideNav.model"
             class="primary--text"></v-app-bar-nav-icon>
-          <!-- <v-app-bar-nav-icon v-if="this.$vuetify.breakpoint.mdAndDown"  class="primary--text"></v-app-bar-nav-icon> -->
         </div>
         <!-- Nav for web -->
         <div class="d-flex align-center" v-if="$vuetify.breakpoint.lgAndUp">
           <v-btn nuxt to="#" class="font__15   mr-4 primary--text  font-weight-bold" text>Home</v-btn>
           <v-btn nuxt to="#events" class="font__15 mr-4 primary--text  font-weight-bold" text>About</v-btn>
           <v-btn nuxt to="#" class="font__15  mr-4 primary--text  font-weight-bold" text>Services</v-btn>
-          <v-btn nuxt to="#" class="font__15  mr-8 primary--text  font-weight-bold" text>Career</v-btn>
+          <v-btn nuxt to="#" class="font__15  mr-8 primary--text  font-weight-bold" text>Contact us</v-btn>
           <v-btn nuxt to="#" rounded depressed class="mr-4 font__15 secondary--text font-weight-bold" color="#000"
             width="180" height="50">Get Free Quote</v-btn>
         </div>
@@ -60,12 +59,6 @@
 .v-btn {
   transition: 0.7s;
   color: black !important;
-
-  @media (min-width: 1380px) {
-    // font-size: 1rem !important;
-  }
-
-
 }
 
 .logo__wrapper {
