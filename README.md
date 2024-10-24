@@ -44,3 +44,13 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+## Design Approach
+
+In this project, I chose to use images that effectively communicate the brand and tell a story across different sections of the index page. Given more time, I would have added greater interactivity and animated the hero component and other components not added to dynamically display the number of vehicles sold.
+
+For the design, I utilized Figma to create high-fidelity mockups. The development was done using Nuxt.js and Vue for the component structure, alongside Vuetify as the CSS framework.
+
+Nuxt.js provides a built-in structure that enhances scalability and improves page presentation for SEO. Additionally, it optimizes image loading times, contributing to a better user experience.
+
+
