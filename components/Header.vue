@@ -44,14 +44,12 @@
         </div>
         <!-- Nav for web -->
         <div class="d-flex align-center" v-if="$vuetify.breakpoint.lgAndUp">
-          <v-btn nuxt to="#" class="font__15   mr-4 primary--text  font-weight-bold" text>Products</v-btn>
-          <v-btn nuxt to="#events" class="font__15 mr-4 primary--text  font-weight-bold" text>Events</v-btn>
-          <v-btn nuxt to="#" class="font__15  mr-4 primary--text  font-weight-bold" text>Pricing</v-btn>
-          <v-btn nuxt to="#" class="font__15  mr-8 primary--text  font-weight-bold" text>Contact</v-btn>
-          <v-btn nuxt to="#" rounded depressed class="mr-4 font__15  white--text font-weight-bold" color="#038595"
-            width="150" height="50">Log In</v-btn>
-          <v-btn nuxt to="#" rounded depressed class="mr-4 font__15 white--text font-weight-bold" color="#FC6436"
-            width="180" height="50">Request Demo</v-btn>
+          <v-btn nuxt to="#" class="font__15   mr-4 primary--text  font-weight-bold" text>Home</v-btn>
+          <v-btn nuxt to="#events" class="font__15 mr-4 primary--text  font-weight-bold" text>About</v-btn>
+          <v-btn nuxt to="#" class="font__15  mr-4 primary--text  font-weight-bold" text>Services</v-btn>
+          <v-btn nuxt to="#" class="font__15  mr-8 primary--text  font-weight-bold" text>Career</v-btn>
+          <v-btn nuxt to="#" rounded depressed class="mr-4 font__15 secondary--text font-weight-bold" color="#000"
+            width="180" height="50">Get Free Quote</v-btn>
         </div>
       </div>
     </v-app-bar>
@@ -62,7 +60,6 @@
 .v-btn {
   transition: 0.7s;
   color: black !important;
-  // font-size: 0.6em !important;
 
   @media (min-width: 1380px) {
     // font-size: 1rem !important;
@@ -104,33 +101,28 @@ export default {
     },
     items: [{
       icon: 'mdi-home',
-      text: 'HOME',
+      text: 'Home',
       to: '/'
     },
     {
       icon: 'mdi-information',
-      text: 'PRODUCTS',
+      text: 'About',
       to: '#'
     },
     {
       icon: 'mdi-newspaper',
-      text: 'EVENTS',
+      text: 'Service',
       to: '#'
     },
     {
       icon: 'mdi-phone-message',
-      text: 'CONTACT',
-      to: '/contact'
+      text: 'Contact',
+      to: '#'
     },
     {
       icon: 'mdi-book-open-page-variant',
-      text: 'LOG IN',
-      to: '/sign-in'
-    },
-    {
-      icon: 'mdi-book-open-page-variant',
-      text: 'REQUEST DEMO',
-      to: '/sign-up'
+      text: 'Get free quote',
+      to: ''
     }
     ],
   })

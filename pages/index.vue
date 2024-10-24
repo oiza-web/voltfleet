@@ -1,14 +1,23 @@
 <template>
-  <main>
-    <Header />
-    <!-- <Footer /> -->
-  </main>
+  <section>
+    <HeroComponent />
+    <WhyChooseFleet />
+    <Testimonial />
+  </section>
 </template>
 
 <script>
-import Header from '../components/Header.vue'
-import Footer from '../components/Footer.vue'
+import HeroComponent from '../components/HeroComponent.vue'
+import WhyChooseFleet from '../components/WhyChooseFleet.vue'
+import Testimonial from '../components/Testimonial.vue'
+
+
 export default {
-  name: 'IndexPage'
+  components: {
+    HeroComponent,
+    WhyChooseFleet,
+    Testimonial
+  }
+
 }
 </script>
